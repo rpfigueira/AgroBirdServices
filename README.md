@@ -1,13 +1,17 @@
 # AgroBirdServices
-Workflow to estimate invertebrate pest consumption in crop landscapes by birds.
+Workflow to estimate invertebrate pest consumption in agricultural valleys by birds.
+The repository contains the scripts used in the paper by Messina et al (2023) *A 
+multidisciplinary workflow to estimate pest control services by birds in farmlands: 
+landscape and species conservation decision making support*, to be submitted to 
+*Ecological Informatics* Journal.
 
 ## Purpose of the workflow
-The purpose of the workflow is to quantify the amount of invertebrate crop pest
+The purpose of the workflow is to quantify the amount of invertebrate crop pests
 consumed by birds in a crop landscape. 
 
-This analysis workflow is based on the study by [Messina et al. (2023)](#), 
+This analysis workflow is based on the study by [Messina et al. (2023)](https://doi.org/10.1016/j.ecoser.2023.101556), 
 which, based on field work, determined that pest consumption by birds in an 
-agricultural valley in Portugal is dependent on the presence of trees in the 
+agricultural valley is dependent on the presence of trees in the 
 landscape.
 
 This analysis expands that result to a general application, using public 
@@ -24,24 +28,19 @@ data is combined to produce the estimates of pest consumption:
 
 ## Workflow
 
-The workflow implements the following steps (diagram):
-
-1. Spatially select bird occurrence data for the California Agricultural Valley area of 
-interest
-2. 
-2. Select bird occurrences 
-
-The data gathering and 
+The workflow implements the following steps:
 
 
-| Step | nb name | description | link | status | output |
-|------|---------|-------------|------|--------|--------|
-| 1 | 01_select_records | filter data for the polygon area and sample randomly 10%of records | https://gbif01:8888/notebooks/projects/TainanMessina/article2/01_select_records_and_area.ipynb | functional | |
-| 1 | 01_select_area | select the area polygon, clip eBird data, clip the land cover layer, calculate area for crops | https://gbif01:8888/notebooks/projects/TainanMessina/article2/01_select_area.ipynb | functional | df_points_parquet.csv, crop_data.csv, Cropland_clip1.tif |
-| 2 | 02_select_occ | select bird occurrences based on the criteria | https://gbif01:8888/notebooks/projects/TainanMessina/article2/02_select_occ.ipynb | functional | eBird_sel.csv |
-| 3 | 03_bird_groups | set bird functional groups and bird counts | https://gbif01:8888/notebooks/projects/TainanMessina/article2/03_bird_groups.ipynb | TODO |
-| 4 | 04_crop_list | calculate the list of crops and its area for the selected polygon |https://gbif01:8888/notebooks/projects/TainanMessina/article2/04_crop_list.ipynb | TODO |
-| 5 | 05_pest_list | calculate the list of pests for the selected crops and area |https://gbif01:8888/notebooks/projects/TainanMessina/article2/05_pest_list.ipynb | funtcional | eppo_crop_pest_data.csv |
-| 6 | 06_predation | determine predation preys by birds | https://gbif01:8888/notebooks/projects/TainanMessina/article2/06_predation.ipynb | functional | bird_prey.csv |
-| 7 | 07_consumption | calculate pest consumption | https://gbif01:8888/notebooks/projects/TainanMessina/article2/07_consumption.ipynb | TODO |
-| 8 | 08_simulation | simulate land cover change | | TODO |
+
+| Step | Name | Description | Prerequisites | Notebooks |
+|------|---------|----------|---------------|----------|
+| 1.   | Prepare bird trait database | Classify bird species based on habitat, food and feeding traits, define species selection criteria and collect species range | Trait classification of bird species. Checklists are mandatory for this step to represent the community at local levels. Information on the reproduction period is also needed as it is directly related to the feeding behaviour during this period. |  |
+| 2. | Selection of area of interest (aoi), bird sampling events and occurrence records | Spatially define the limits of the agricultural valley, set bird sampling protocol criteria,  apply species selection criteria and species range match with aoi | Land use layers | 01_select_records_and_area |
+| 3. |  Collect crop and land use data | From a land crop/land use data source, clip the aoi and obtain a list of existing crops. Match crop classification table with standard list of crops | List of crops with standard codes, classification of crops as temporary of permanent crops |  02_clip_crop_classification |
+| 4. | Determine crop features at the bird observation points | Create a spatial buffer at bird observation points and obtain crop and landscape description data | List of bird point locations filtered by quality criteria | 03_spatial_buffer_occurrences |
+| 5. | Create list of potential pests | Get a list of potential invertebrate crop pests occurring in the area, based on a database of pests in crops | Database on pest-specific information for crops |  04_create_pest_list |
+| 6. |  Identify pests consumed by occurring birds | Cross bird, crop and pest data to identify which pests are predated by bird species occurring in the aoi. This is done for each point buffer | List of bird species in the aoi. List of crops and corresponding pests in the aoi | 05_determine_predation |
+| 7. | Calculate pest consumption | Determine pest consumption, based on bird energy requirements, daily food intake, number of bird individuals and proportion of crop in the point buffer  | Cross table of birds, crops and pests, Data on Daily Energy Expenditure for birds, and moisture content and assimilation efficiency for pests | 06_calculate_crop_fraction <br> 07_calculate_DFI <br> 08_calculate_consumption |
+| 8. |Develop model of pest consumption | Combine data about pest consumption, crop cover and landscape description, bird and community and guild data at point level for modelling. Develop consumption model and assess model quality | | 09_calcultate_indices <br> 10_EDA <br> 11_Data_transformation <br> 12-1_RandomForest_model_temporary <br> 12-2_RandomForest_model_permanent |
+| 9. | Implement simulation tool | Implement the model to allow the simulation of pest consumption with the change of landscape features. The simulation includes a tool for the classification of the relevance of pests in the local crops by the local stakeholders | Pest consumption model for the agricultural valley of the simulation area | TODO |
+
