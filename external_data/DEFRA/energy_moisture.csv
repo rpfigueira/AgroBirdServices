@@ -1,0 +1,32 @@
+ID,pest_taxa,eppocode_order,Energy_food_kj_g,moisture_perc,fresh_weight_kj_g,ref_source
+1,Coleoptera,1COLEO,21.9,70.5,6.4605,Arthropods
+2,Lepidoptera,1LEPIO,21.7,79.4,4.4702,Caterpillars
+3, Isoptera,1ISOPO,21.9,70.5,6.4605,Arthropods
+4,Orthoptera,1ORTHO,21.9,70.5,6.4605,Arthropods
+5,Odonata,1ODONO,21.9,70.5,6.4605,Arthropods
+6,Neuroptera,1NEURO,21.9,70.5,6.4605,Arthropods
+7,Dermaptera,1DERMO,21.9,70.5,6.4605,Arthropods
+8,Hemiptera,1HEMIO,21.9,70.5,6.4605,Arthropods
+10,Diptera,1DIPTO,21.9,70.5,6.4605,Arthropods
+12,Mecoptera,1MECOO,21.9,70.5,6.4605,Arthropods
+13,Araneae,1ARANO,21.9,70.5,6.4605,Arthropods
+14,Opiliones,1OPIOO,21.9,70.5,6.4605,Arthropods
+15,Gastropoda,1GASTC,19.3,84.6,2.9722,Soil invertebrates
+16,Isopoda,1ISODO,21.9,70.5,6.4605,Arthropods
+17,Hymenoptera,1HYMEO,21.9,70.5,6.4605,Arthropods
+18, Dictyoptera, 1DICYO,21.9,70.5,6.4605,Arthropods
+19,Ephemeroptera,1EPHMO,21.9,70.5,6.4605,Arthropods
+20,Collembola,1COLLO,21.9,70.5,6.4605,Arthropods
+21,Diplopoda,1DIPLC,21.9,70.5,6.4605,Arthropods
+22,Trichoptera,1TRCPO,21.9,70.5,6.4605,Arthropods
+24,Plecoptera,1PLECO,21.9,70.5,6.4605,Arthropods
+25,Thysanoptera,1THYSO,21.9,70.5,6.4605,Arthropods
+26,Psocoptera,1PSOCO,21.9,70.5,6.4605,Arthropods
+27,Chilopoda,1CHILC,21.9,70.5,6.4605,Arthropods
+28,Scorpiones,1SCORO,21.9,70.5,6.4605,Arthropods
+29,Pseudoscorpiones,1PSESO,21.9,70.5,6.4605,Arthropods
+30,Dorylaimida,1DORYO,19.3,84.6,2.9722,Soil invertebrates
+31,Rhabditida,1RHABO,19.3,84.6,2.9722,Soil invertebrates
+32,Architaenioglossa,1ARTAO,19.3,84.6,2.9722,Soil invertebrates
+33,Sigmurethra,1SIGMO,19.3,84.6,2.9722,Soil invertebrates
+34,Acarida,1ACARO,21.9,70.5,6.4605,Arthropods
