@@ -1,0 +1,257 @@
+Codes,Class_Names,Scientific_name,EPPO_code,EPPO_code_period,Comments,IsCrop,IsCropOther,IsWoodland,IsFeedingArea,IsPerennial,IsTempCrop,IsPermCrop,Erdas_Red,Erdas_Green
+0,Background,,,,,0,0,0,0,0,0,0,0,0
+1,Corn,Zea mays,ZEAMX,ZEAMX,,1,1,0,1,0,1,0,1,0.8275
+2,Cotton,Gossypium spp.,1GOSG,1GOSG,,1,1,0,1,0,1,0,1,0.149
+3,Rice,Oryza sativa,ORYSA,ORYSA,,1,1,0,1,0,1,0,0,0.6588
+4,Sorghum,Sorghum bicolor,SORVU,SORVU,,1,1,0,1,0,1,0,1,0.6196
+5,Soybeans,Glycine max,GLXMA,GLXMA,,1,1,0,1,0,1,0,0.149,0.4431
+6,Sunflower,Helianthus annuus,HELAN,HELAN,,1,1,0,1,0,1,0,1,1
+7, ,,,,,0,0,0,0,0,0,0,0,0
+8, ,,,,,0,0,0,0,0,0,0,0,0
+9, ,,,,,0,0,0,0,0,0,0,0,0
+10,Peanuts,Arachis hypogaea,ARHHY,ARHHY,,1,1,0,1,0,1,0,0.4392,0.6471
+11,Tobacco,Nicotiana tabacum,NIOTA,NIOTA,,1,1,0,1,0,1,0,0,0.6863
+12,Sweet Corn,Zea mays var. saccharata,ZEAMS,ZEAMS,,1,1,0,1,0,1,0,0.8667,0.6471
+13,Pop or Orn Corn,Zea mays var. everta,ZEAME,ZEAME,,1,1,0,1,0,1,0,0.8667,0.6471
+14,Mint,Mentha spp.,1MENG,1MENG,,1,1,0,1,0,1,0,0.498,0.8275
+15, ,,,,,0,0,0,0,0,0,0,0,0
+16, ,,,,,0,0,0,0,0,0,0,0,0
+17, ,,,,,0,0,0,0,0,0,0,0,0
+18, ,,,,,0,0,0,0,0,0,0,0,0
+19, ,,,,,0,0,0,0,0,0,0,0,0
+20, ,,,,,0,0,0,0,0,0,0,0,0
+21,Barley,Hordeum vulgare,HORVX,HORVX,,1,1,0,1,0,1,0,0.8863,0
+22,Durum Wheat,Triticum durum,TRZDU,TRZDU,,1,1,0,1,0,1,0,0.5373,0.3882
+23,Spring Wheat,Triticum aestivum,TRZAX,TRZAX,,1,1,0,1,0,1,0,0.8471,0.7098
+24,Winter Wheat,Triticum aestivum,TRZAX,TRZAX,,1,1,0,1,0,1,0,0.6471,0.4392
+25,Other Small Grains,,,,,0,1,0,1,0,0,0,0.8392,0.6196
+26,Dbl Crop WinWht/Soybeans,,"TRZAX,GLXMA",GLXMA,"Left the code for soybeans as they are spring/summer crops. Source: https://cals.cornell.edu/field-crops/soybeans/planting-soybeans#:~:text=Soybeans%20can%20be%20successfully%20planted,April%20and%20early%20May%20plantings.",1,1,0,1,0,1,0,0.4431,0.4431
+27,Rye,Secale cereale,SECCE,SECCE,,1,1,0,1,0,1,0,0.6784,0
+28,Oats,Avena sativa,AVESA,AVESA,,1,1,0,1,0,1,0,0.6275,0.349
+29,Millet,Panicum miliaceum,PANMI,PANMI,,1,1,0,1,0,1,0,0.4431,0
+30,Speltz,Triticum spelta,TRZSP,TRZSP,,1,1,0,1,0,1,0,0.8392,0.6196
+31,Canola,Brassica napus,BRSNN,BRSNN,,1,1,0,1,0,1,0,0.8196,1
+32,Flaxseed,Linum usitatissimum,LIUUT,LIUUT,,1,1,0,1,0,1,0,0.498,0.6
+33,Safflower,Carthamus tinctorius,CAUTI,CAUTI,,1,1,0,1,0,1,0,0.8392,0.8392
+34,RapeSeed,Brassica napus subsp. napus,BRSNN,BRSNN,,1,1,0,1,0,1,0,0.8196,1
+35,Mustard,Brassica juncea,BRSJU,BRSJU,,1,1,0,1,0,1,0,0,0.6863
+36,Alfalfa,Medicago sativa,MEDSA,MEDSA,,1,1,0,1,0,1,0,1,0.6471
+37,Other Hay/Non Alfalfa,,,,,0,1,0,1,0,0,0,0.6471,0.9529
+38,Camelina,Camelina sativa,CMASA,CMASA,,1,1,0,1,0,1,0,0,0.6863
+39,Buckwheat,Fagopyrum esculentum,FAGES,FAGES,,1,1,0,1,0,1,0,0.8392,0.6196
+40, ,,,,,0,0,0,0,0,0,0,0,0
+41,Sugarbeets,Beta vulgaris subsp. vulgaris,BEAVX,BEAVX,,1,1,0,1,0,1,0,0.6588,0
+42,Dry Beans,,,,,0,1,0,1,0,0,0,0.6471,0
+43,Potatoes,Solanum tuberosum,SOLTU,SOLTU,,1,1,0,1,0,1,0,0.4431,0.149
+44,Other Crops,,,,,0,1,0,1,0,0,0,0,0.6863
+45,Sugarcane,Saccharum,1SACG,1SACG,,1,1,0,1,0,1,0,0.698,0.498
+46,Sweet Potatoes,Ipomoea batatas,IPOBA,IPOBA,,1,1,0,1,0,1,0,0.4431,0.149
+47,Misc Vegs & Fruits,,,,,0,1,0,1,0,0,0,1,0.4
+48,Watermelons,Citrullus lanatus,CITLA,CITLA,,1,1,0,1,0,1,0,1,0.4
+49,Onions,Allium cepa,ALLCE,ALLCE,,1,1,0,1,0,1,0,1,0.8
+50,Cucumbers,Cucumis sativus,CUMSA,CUMSA,,1,1,0,1,0,1,0,1,0.4
+51,Chick Peas,Cicer arietinum,CIEAR,CIEAR,,1,1,0,1,0,1,0,0,0.6863
+52,Lentils,Lens culinaris,LENCU,LENCU,,1,1,0,1,0,1,0,0,0.8667
+53,Peas,Pisum sativum,PIBSX,PIBSX,,1,1,0,1,0,1,0,0.3294,1
+54,Tomatoes,Solanum lycopersicum,LYPES,LYPES,,1,1,0,1,0,1,0,0.9529,0.6392
+55,Caneberries,,"RUBID,VACMY","RUBID,VACMY",We can leave both here as we don't know the exact species.,1,1,0,1,0,1,0,1,0.4
+56,Hops,Humulus lupulus,HUMLU,HUMLU,,1,1,0,1,0,1,0,0,0.6863
+57,Herbs,,,,,0,0,0,1,0,0,0,0.498,0.8275
+58,Clover/Wildflowers,,,,,0,0,0,1,0,0,0,0.9098,0.749
+59,Sod/Grass Seed,,,,,0,0,0,1,0,0,0,0.6863,1
+60,Switchgrass,Panicum virgatum,PANVI,PANVI,,1,1,0,1,0,1,0,0,0.6863
+61,Fallow/Idle Cropland,,,,,0,1,0,1,0,0,0,0.749,0.749
+62, ,,,,,0,0,0,0,0,0,0,0,0
+63,Forest,,,,,0,0,1,1,1,0,0,0.5765,0.8
+64,Shrubland,,,,,0,0,1,1,1,0,0,0.7765,0.8392
+65,Barren,,,,,0,0,0,0,0,0,0,0.8,0.749
+66,Cherries,Prunus sp.,PRNSS,PRNSS,,1,1,0,1,1,0,1,1,0
+67,Peaches,Prunus persica,PRNPS,PRNPS,,1,1,0,1,1,0,1,1,0.5569
+68,Apples,Malus sp.,MABSS,MABSS,,1,1,0,1,1,0,1,0.7294,0
+69,Grapes,Vitis sp.,VITSS,VITSS,,1,1,0,1,1,0,1,0.4392,0.2667
+70,Christmas Trees,,,,,0,1,0,1,1,0,0,0,0.4667
+71,Other Tree Crops,,,,,0,1,0,1,1,0,0,0.698,0.6078
+72,Citrus,Citrus spp.,CIDSS,CIDSS,,1,1,0,1,1,0,1,1,1
+73, ,,,,,0,0,0,0,0,0,0,0,0
+74,Pecans,Carya illinoinensis,CYAIL,CYAIL,,1,1,0,1,1,0,1,0.7098,0.4392
+75,Almonds,Prunus dulcis,PRDU,PRDU,,1,1,0,1,1,0,1,0,0.6471
+76,Walnuts,Juglans sp.,IUGSS,IUGSS,,1,1,0,1,1,0,1,0.9176,0.8392
+77,Pears,Pyrus communis,PYUCO,PYUCO,,1,1,0,1,1,0,1,0.698,0.6078
+78, ,,,,,0,0,0,0,0,0,0,0,0
+79, ,,,,,0,0,0,0,0,0,0,0,0
+80, ,,,,,0,0,0,0,0,0,0,0,0
+81,Clouds/No Data,,,,,0,0,0,0,0,0,0,0.9529,0.9529
+82,Developed,,,,,0,0,0,0,0,0,0,0.6078,0.6078
+83,Water,,,,,0,0,0,0,0,0,0,0.298,0.4392
+84, ,,,,,0,0,0,0,0,0,0,0,0.6078
+85, ,,,,,0,0,0,0,0,0,0,0,0
+86, ,,,,,0,0,0,0,0,0,0,0,0
+87,Wetlands,,,,,0,0,0,0,0,0,0,0.498,0.698
+88,Nonag/Undefined,,,,,0,0,0,0,0,0,0,0.9098,1
+89, ,,,,,0,0,0,0,0,0,0,0,0
+90, ,,,,,0,0,0,0,0,0,0,0,0
+91, ,,,,,0,0,0,0,0,0,0,0,0
+92,Aquaculture,,,,,0,0,0,0,0,0,0,0,1
+93, ,,,,,0,0,0,0,0,0,0,0,0
+94, ,,,,,0,0,0,0,0,0,0,0,0
+95, ,,,,,0,0,0,0,0,0,0,0,0
+96, ,,,,,0,0,0,0,0,0,0,0,0
+97, ,,,,,0,0,0,0,0,0,0,0,0
+98, ,,,,,0,0,0,0,0,0,0,0,0
+99, ,,,,,0,0,0,0,0,0,0,0,0
+100, ,,,,,0,0,0,0,0,0,0,0,0
+101, ,,,,,0,0,0,0,0,0,0,0,0
+102, ,,,,,0,0,0,0,0,0,0,0,0
+103, ,,,,,0,0,0,0,0,0,0,0,0
+104, ,,,,,0,0,0,0,0,0,0,0,0
+105, ,,,,,0,0,0,0,0,0,0,0,0
+106, ,,,,,0,0,0,0,0,0,0,0,0
+107, ,,,,,0,0,0,0,0,0,0,0,0
+108, ,,,,,0,0,0,0,0,0,0,0,0
+109, ,,,,,0,0,0,0,0,0,0,0,0
+110, ,,,,,0,0,0,0,0,0,0,0,0
+111,Open Water,,,,,0,0,0,0,0,0,0,0.298,0.4392
+112,Perennial Ice/Snow ,,,,,0,0,0,0,0,0,0,0.8275,0.8863
+113, ,,,,,0,0,0,0,0,0,0,0,0
+114, ,,,,,0,0,0,0,0,0,0,0,0
+115, ,,,,,0,0,0,0,0,0,0,0,0
+116, ,,,,,0,0,0,0,0,0,0,0,0
+117, ,,,,,0,0,0,0,0,0,0,0,0
+118, ,,,,,0,0,0,0,0,0,0,0,0
+119, ,,,,,0,0,0,0,0,0,0,0,0
+120, ,,,,,0,0,0,0,0,0,0,0,0
+121,Developed/Open Space,,,,,0,0,0,0,0,0,0,0.6078,0.6078
+122,Developed/Low Intensity,,,,,0,0,0,0,0,0,0,0.6078,0.6078
+123,Developed/Med Intensity,,,,,0,0,0,0,0,0,0,0.6078,0.6078
+124,Developed/High Intensity,,,,,0,0,0,0,0,0,0,0.6078,0.6078
+125, ,,,,,0,0,0,0,0,0,0,0,0
+126, ,,,,,0,0,0,0,0,0,0,0,0
+127, ,,,,,0,0,0,0,0,0,0,0,0
+128, ,,,,,0,0,0,0,0,0,0,0,0
+129, ,,,,,0,0,0,0,0,0,0,0,0
+130, ,,,,,0,0,0,0,0,0,0,0,0
+131,Barren,,,,,0,0,0,0,0,0,0,0.8,0.749
+132, ,,,,,0,0,0,0,0,0,0,0,0
+133, ,,,,,0,0,0,0,0,0,0,0,0
+134, ,,,,,0,0,0,0,0,0,0,0,0
+135, ,,,,,0,0,0,0,0,0,0,0,0
+136, ,,,,,0,0,0,0,0,0,0,0,0
+137, ,,,,,0,0,0,0,0,0,0,0,0
+138, ,,,,,0,0,0,0,0,0,0,0,0
+139, ,,,,,0,0,0,0,0,0,0,0,0
+140, ,,,,,0,0,0,0,0,0,0,0,0
+141,Deciduous Forest,,,,,0,0,1,1,1,0,0,0.5765,0.8
+142,Evergreen Forest,,,,,0,0,1,1,1,0,0,0.5765,0.8
+143,Mixed Forest,,NNNWW,NNNWW,,0,0,1,1,1,0,0,0.5765,0.8
+144, ,,,,,0,0,0,0,0,0,0,0,0
+145, ,,,,,0,0,0,0,0,0,0,0,0
+146, ,,,,,0,0,0,0,0,0,0,0,0
+147, ,,,,,0,0,0,0,0,0,0,0,0
+148, ,,,,,0,0,0,0,0,0,0,0,0
+149, ,,,,,0,0,0,0,0,0,0,0,0
+150, ,,,,,0,0,0,0,0,0,0,0,0
+151, ,,,,,0,0,0,0,0,0,0,0,0
+152,Shrubland,,,,,0,0,1,1,1,0,0,0.7765,0.8392
+153, ,,,,,0,0,0,0,0,0,0,0,0
+154, ,,,,,0,0,0,0,0,0,0,0,0
+155, ,,,,,0,0,0,0,0,0,0,0,0
+156, ,,,,,0,0,0,0,0,0,0,0,0
+157, ,,,,,0,0,0,0,0,0,0,0,0
+158, ,,,,,0,0,0,0,0,0,0,0,0
+159, ,,,,,0,0,0,0,0,0,0,0,0
+160, ,,,,,0,0,0,0,0,0,0,0,0
+161, ,,,,,0,0,0,0,0,0,0,0,0
+162, ,,,,,0,0,0,0,0,0,0,0,0
+163, ,,,,,0,0,0,0,0,0,0,0,0
+164, ,,,,,0,0,0,0,0,0,0,0,0
+165, ,,,,,0,0,0,0,0,0,0,0,0
+166, ,,,,,0,0,0,0,0,0,0,0,0
+167, ,,,,,0,0,0,0,0,0,0,0,0
+168, ,,,,,0,0,0,0,0,0,0,0,0
+169, ,,,,,0,0,0,0,0,0,0,0,0
+170, ,,,,,0,0,0,0,0,0,0,0,0
+171, ,,,,,0,0,0,0,0,0,0,0,0
+172, ,,,,,0,0,0,0,0,0,0,0,0
+173, ,,,,,0,0,0,0,0,0,0,0,0
+174, ,,,,,0,0,0,0,0,0,0,0,0
+175, ,,,,,0,0,0,0,0,0,0,0,0
+176,Grass/Pasture,,,,,0,0,0,1,0,0,0,0.9098,1
+177, ,,,,,0,0,0,0,0,0,0,0,0
+178, ,,,,,0,0,0,0,0,0,0,0,0
+179, ,,,,,0,0,0,0,0,0,0,0,0
+180, ,,,,,0,0,0,0,0,0,0,0,0
+181, ,,,,,0,0,0,0,0,0,0,0,0
+182, ,,,,,0,0,0,0,0,0,0,0,0
+183, ,,,,,0,0,0,0,0,0,0,0,0
+184, ,,,,,0,0,0,0,0,0,0,0,0
+185, ,,,,,0,0,0,0,0,0,0,0,0
+186, ,,,,,0,0,0,0,0,0,0,0,0
+187, ,,,,,0,0,0,0,0,0,0,0,0
+188, ,,,,,0,0,0,0,0,0,0,0,0
+189, ,,,,,0,0,0,0,0,0,0,0,0
+190,Woody Wetlands,,,,,0,0,1,1,1,0,0,0.498,0.698
+191, ,,,,,0,0,0,0,0,0,0,0,0
+192, ,,,,,0,0,0,0,0,0,0,0,0
+193, ,,,,,0,0,0,0,0,0,0,0,0
+194, ,,,,,0,0,0,0,0,0,0,0,0
+195,Herbaceous Wetlands,,,,,0,0,0,1,0,0,0,0.498,0.698
+196, ,,,,,0,0,0,0,0,0,0,0,0
+197, ,,,,,0,0,0,0,0,0,0,0,0
+198, ,,,,,0,0,0,0,0,0,0,0,0
+199, ,,,,,0,0,0,0,0,0,0,0,0
+200, ,,,,,0,0,0,0,0,0,0,0,0
+201, ,,,,,0,0,0,0,0,0,0,0,0
+202, ,,,,,0,0,0,0,0,0,0,0,0
+203, ,,,,,0,0,0,0,0,0,0,0,0
+204,Pistachios,Pistacia vera,PIAVE,PIAVE,,1,1,0,1,1,0,1,0,1
+205,Triticale,Triticosecale rimpaui,TTLRI,TTLRI,,1,1,0,1,0,1,0,0.8392,0.6196
+206,Carrots,Daucus carota,DAUCA,DAUCA,,1,1,0,1,0,1,0,1,0.4
+207,Asparagus,Asparagus officinalis,ASPOF,ASPOF,,1,1,0,1,0,1,0,1,0.4
+208,Garlic,Allium sativum,ALLSA,ALLSA,,1,1,0,1,0,1,0,1,0.4
+209,Cantaloupes,Cucumis melo var. cantalupensis,CUMMC,CUMMC,,1,1,0,1,0,1,0,1,0.4
+210,Prunes,Prunus domestica,PRNDO,PRNDO,,1,1,0,1,1,0,1,1,0.5569
+211,Olives,Olea europaea,OLVEU,OLVEU,,1,1,0,1,1,0,1,0.2,0.2863
+212,Oranges,Citrus sinensis,CIDSI,CIDSI,,1,1,0,1,1,0,1,0.898,0.4431
+213,Honeydew Melons,Cucumis melo var. inodorus,CUMI,CUMI,,1,1,0,1,0,1,0,1,0.4
+214,Broccoli,Brassica oleracea var. italica,BRSOK,BRSOK,,1,1,0,1,0,1,0,1,0.4
+215,Avocados,Persea americana,PEBAM,PEBAM,,1,1,0,1,1,0,1,0.4,0.6
+216,Peppers,Capsicum annuum,CPSAN,CPSAN,,1,1,0,1,1,0,1,1,0.4
+217,Pomegranates,Punica granatum,PUNGR,PUNGR,,1,1,0,1,1,0,1,0.698,0.6078
+218,Nectarines,Prunus persica var. nectarina,PRNPN,PRNPN,,1,1,0,1,1,0,1,1,0.5569
+219,Greens,Brassica oleracea var. acephala,BRSOA,BRSOA,,1,1,0,1,0,1,0,1,0.4
+220,Plums,Prunus domestica,PRNDO,PRNDO,,1,1,0,1,1,0,1,1,0.5569
+221,Strawberries,Fragaria × ananassa,FRAAN,FRAAN,,1,1,0,1,0,1,0,1,0.4
+222,Squash,Cucurbita pepo,CUUPE,CUUPE,,1,1,0,1,0,1,0,1,0.4
+223,Apricots,Prunus armeniaca,PRNAR,PRNAR,,1,1,0,1,1,0,1,1,0.5569
+224,Vetch,Vicia sativa,VICSA,VICSA,,1,1,0,1,0,1,0,0,0.6863
+225,Dbl Crop WinWht/Corn,,"TRZAX,ZEAMX",ZEAMX,,1,1,0,1,0,1,0,1,0.8275
+226,Dbl Crop Oats/Corn,,"AVESA,ZEAMX",ZEAMX,,1,1,0,1,0,1,0,1,0.8275
+227,Lettuce,Lactuca sativa,LACSA,LACSA,,1,1,0,1,0,1,0,1,0.4
+228,Dbl Crop Triticale/Corn,,"TTLRI,ZEAMX",ZEAMX,,1,1,0,1,0,1,0,1,0.8275
+229,Pumpkins,Cucurbita pepo,CUUPE,CUUPE,,1,1,0,1,0,1,0,1,0.4
+230,Dbl Crop Lettuce/Durum Wht,,"LACSA,TRZAX",LACSA,,1,1,0,1,0,1,0,0.5373,0.3882
+231,Dbl Crop Lettuce/Cantaloupe,,"LACSA,CUMMC",CUMMC,,1,1,0,1,0,1,0,1,0.4
+232,Dbl Crop Lettuce/Cotton,,"LACSA,1GOSG",1GOSG,,1,1,0,1,0,1,0,1,0.149
+233,Dbl Crop Lettuce/Barley,,"LACSA,HORVX",HORVX,,1,1,0,1,0,1,0,0.8863,0
+234,Dbl Crop Durum Wht/Sorghum,,"TRZAX,SORVU",SORVU,,1,1,0,1,0,1,0,1,0.6196
+235,Dbl Crop Barley/Sorghum,,"TRZAX,SORVU",SORVU,,1,1,0,1,0,1,0,1,0.6196
+236,Dbl Crop WinWht/Sorghum,,"SORVU,TRZAX",SORVU,,1,1,0,1,0,1,0,0.6471,0.4392
+237,Dbl Crop Barley/Corn,,"TRZAX,ZEAMX",ZEAMX,,1,1,0,1,0,1,0,1,0.8275
+238,Dbl Crop WinWht/Cotton,,"TRZAX,1GOSG",1GOSG,,1,1,0,1,0,1,0,0.6471,0.4392
+239,Dbl Crop Soybeans/Cotton,,"GLXMA,1GOSG",1GOSG,,1,1,0,1,0,1,0,0.149,0.4431
+240,Dbl Crop Soybeans/Oats,,"GLXMA,AVESA",GLXMA,,1,1,0,1,0,1,0,0.149,0.4431
+241,Dbl Crop Corn/Soybeans,,"ZEAMX,GLXMA","ZEAMX,GLXMA","not sure, literature describe both crops planted from feb -jun.",1,1,0,1,0,1,0,1,0.8275
+242,Blueberries,Vaccinium spp.,VACSS,VACSS,,1,1,0,1,1,0,1,0,0
+243,Cabbage,Brassica oleracea var. capitata,BRSOL,BRSOL,,1,1,0,1,0,1,0,1,0.4
+244,Cauliflower,Brassica oleracea var. botrytis,BRSOB,BRSOB,,1,1,0,1,0,1,0,1,0.4
+245,Celery,Apium graveolens var. dulce,APUGD,APUGD,,1,1,0,1,0,1,0,1,0.4
+246,Radishes,Raphanus sativus,RAPSR,RAPSR,,1,1,0,1,0,1,0,1,0.4
+247,Turnips,Brassica rapa var. rapa,BSRSS,BSRSS,,1,1,0,1,0,1,0,1,0.4
+248,Eggplants,Solanum melongena,SOLME,SOLME,,1,1,0,1,0,1,0,1,0.4
+249,Gourds,Cucurbita spp.,CUUSS,CUUSS,,1,1,0,1,0,1,0,1,0.4
+250,Cranberries,Vaccinium macrocarpon,VACMA,VACMA,,1,1,0,1,1,0,1,1,0.4
+251, ,,,,,0,0,0,0,0,0,0,1,0.8275
+252, ,,,,,0,0,0,0,0,0,0,0.149,0.4431
+253, ,,,,,0,0,0,0,0,0,0,0.6471,0.4392
+254,Dbl Crop Barley/Soybeans,,"HORVX,GLXMA",GLXMA,,1,1,0,1,0,1,0,0.149,0.4431
+255, ,,,,,0,0,0,0,0,0,0,0,0
